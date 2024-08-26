@@ -1,8 +1,29 @@
 @import './header.scss';
 @import './ultimate.scss';
+@import './date.scss';
+@import './about.scss';
+@import './footer.scss';
 
 html, * { 
     box-sizing: border-box; 
     margin: 0;
     padding: 0 }
 body { min-width: 320px }
+
+.whitespace{
+    background-color: white;
+    padding: 2rem;
+}
+
+.letter{
+&--archivo{
+    font-family: "Archivo", sans-serif;
+}
+
+&--old{
+    font-family: "Old Standard TT", serif;
+}
+
+&--roboto{
+    font-family: "Roboto", sans-serif;
+}}

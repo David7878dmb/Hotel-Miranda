@@ -36,7 +36,6 @@
   display: none;
 }
 .header__list__about {
-  font-family: "Archivo", sans-serif;
   list-style: none;
   line-height: 2.5rem;
   font-weight: 600;
@@ -76,7 +75,6 @@
   line-height: 1.125rem;
   font-size: 0.8125rem;
   letter-spacing: 0.175rem;
-  font-family: "Archivo", sans-serif;
 }
 .ultimate__base {
   padding-left: 1.5rem;
@@ -84,7 +82,6 @@
 }
 .ultimate__base__content {
   color: white;
-  font-family: "Old Standard TT", serif;
   font-weight: 400;
   font-size: 52px;
   line-height: 60px;
@@ -103,7 +100,6 @@
   line-height: 1.125rem;
   font-size: 0.8125rem;
   letter-spacing: 0.175rem;
-  font-family: "Archivo", sans-serif;
   text-align: center;
 }
 .ultimate__learn {
@@ -119,10 +115,137 @@
   line-height: 1.125rem;
   font-size: 0.8125rem;
   letter-spacing: 0.175rem;
-  font-family: "Archivo", sans-serif;
   text-align: center;
 }
 
+.date {
+  background-color: #222222;
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.date--h4decoration, .date__availability__button, .date__ledeparture h4, .date__arrival h4 {
+  color: white;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.1719rem;
+  padding-bottom: 1rem;
+}
+.date--calendar, .date__ledeparture__date__calendar, .date__arrival__date__calendar {
+  border: none;
+  outline: none;
+  padding: 5px;
+  padding-left: 0.8rem;
+  background-color: transparent;
+  cursor: pointer;
+  appearance: none;
+  color: #686868;
+  font-size: 0.875rem;
+  line-height: 1.0256rem;
+  font-weight: 400;
+}
+.date__arrival {
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+.date__arrival__date {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1875rem solid #BEAD8E;
+  padding-bottom: 0.1875rem;
+}
+.date__arrival__date__calendar::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.date__ledeparture {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.date__ledeparture__date {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.1875rem solid #BEAD8E;
+  padding-bottom: 0.1875rem;
+}
+.date__ledeparture__date__calendar::-webkit-calendar-picker-indicator {
+  display: none;
+}
+.date__availability {
+  width: 70%;
+  background-color: #BEAD8E;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+.date__availability__button {
+  background-color: transparent;
+  border: 0px solid;
+  padding-bottom: 0;
+  align-items: center;
+  letter-spacing: 0.175rem;
+  font-weight: 600;
+  line-height: 0.9519rem;
+}
+
+.about {
+  background-color: #F9F9F9;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+}
+.about__us {
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.175rem;
+  color: #777777;
+}
+.about__discover {
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+}
+.about__description {
+  line-height: 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+  color: #777777;
+}
+.about__book {
+  width: 55%;
+  background-color: #BDAC8D;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.about__book__button {
+  background-color: transparent;
+  color: white;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9375rem;
+  letter-spacing: 2.8px;
+  border: 0 solid;
+}
+
+.footer {
+  background-color: #F8F8F8;
+  padding: 1rem;
+  padding-left: 1.5rem;
+}
+.footer--letter, .footer__terms, .footer__copyright {
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1719rem;
+  letter-spacing: -0.48px;
+}
+.footer__copyright {
+  padding-bottom: 1rem;
+}
 html, * {
   box-sizing: border-box;
   margin: 0;
@@ -131,6 +254,21 @@ html, * {
 
 body {
   min-width: 320px;
+}
+
+.whitespace {
+  background-color: white;
+  padding: 2rem;
+}
+
+.letter--archivo, .header__list__about, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button {
+  font-family: "Archivo", sans-serif;
+}
+.letter--old, .ultimate__base__content, .about__discover {
+  font-family: "Old Standard TT", serif;
+}
+.letter--roboto, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .footer--letter, .footer__copyright, .footer__terms {
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */

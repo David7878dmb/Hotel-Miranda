@@ -11,7 +11,7 @@
             line-height: 1.125rem;
             font-size: .8125rem;
             letter-spacing: .175rem;
-            font-family: "Archivo", sans-serif;
+            @extend .letter--archivo;
         }
     }
 
@@ -20,7 +20,7 @@
         padding-bottom: 2rem;
         &__content{
             color: white;
-            font-family: "Old Standard TT", serif;
+            @extend .letter--old;
             font-weight: 400;
             font-size: 52px;
             line-height: 60px;
@@ -40,7 +40,7 @@
             line-height: 1.125rem;
             font-size: .8125rem;
             letter-spacing: .175rem;
-            font-family: "Archivo", sans-serif;
+            @extend .letter--archivo;
             text-align: center;
         }
     }
@@ -57,7 +57,7 @@
             line-height: 1.125rem;
             font-size: .8125rem;
             letter-spacing: .175rem;
-            font-family: "Archivo", sans-serif;
+            @extend .letter--archivo;
             text-align: center;
         }
     }

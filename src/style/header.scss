@@ -38,7 +38,7 @@
     &__list{
         display: none;
         &__about{
-            font-family: "Archivo", sans-serif;
+            @extend .letter--archivo;
             list-style: none;
             line-height: 2.5rem;
             font-weight: 600;

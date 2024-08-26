@@ -1,0 +1,89 @@
+.date{
+    background-color: #222222;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+//////////////////////////////////////////////
+    &--h4decoration{
+        color: white;
+        @extend .letter--roboto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 1rem;
+        line-height: 1.1719rem;
+        padding-bottom: 1rem;
+    }
+
+    &--calendar{
+        border: none;
+            outline: none;
+            padding: 5px;
+            padding-left: .8rem;
+            background-color: transparent;
+            cursor: pointer;
+            appearance: none;
+            color: #686868;
+            @extend .letter--roboto;
+            font-size: .875rem;
+            line-height: 1.0256rem;
+            font-weight: 400;
+    }
+/////////////////////////////////////////////
+    &__arrival{
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        h4{
+            @extend .date--h4decoration;
+        }
+        &__date{
+            width: 95%;
+            display: flex;
+            align-items: center;
+            border-bottom: .1875rem solid #BEAD8E;
+            padding-bottom: .1875rem;
+            &__calendar{        
+                @extend .date--calendar;
+            }
+            &__calendar::-webkit-calendar-picker-indicator{
+                display: none;
+            }
+        }
+    }
+
+    &__ledeparture{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        h4{
+            @extend .date--h4decoration;
+        }
+        &__date{
+            width: 95%;
+            display: flex;
+            align-items: center;
+            border-bottom: .1875rem solid #BEAD8E;
+            padding-bottom: .1875rem;
+            &__calendar{        
+                @extend .date--calendar;
+            }
+            &__calendar::-webkit-calendar-picker-indicator{
+                display: none;
+            }
+        }
+    }
+
+    &__availability{
+        width: 70%;
+        background-color:#BEAD8E ;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        &__button{
+            background-color: transparent;
+            border:0px solid;
+            @extend .date--h4decoration;
+            padding-bottom: 0;
+            align-items: center;
+            letter-spacing: .175rem;
+            font-weight: 600;
+            line-height: .9519rem;
+        }
+    }
+}

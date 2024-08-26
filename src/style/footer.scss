@@ -1,0 +1,21 @@
+.footer{
+    background-color: #F8F8F8;
+    padding: 1rem;
+    padding-left: 1.5rem;
+
+    &--letter{
+        color: black;
+        @extend .letter--roboto;
+        font-weight: 700;
+        font-size: 1rem;
+        line-height: 1.1719rem;
+        letter-spacing: -0.48px;
+    }
+    &__copyright{
+        @extend .footer--letter;
+        padding-bottom: 1rem
+    }
+    &__terms{
+        @extend .footer--letter;
+    }
+}
