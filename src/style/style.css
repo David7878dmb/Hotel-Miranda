@@ -38,7 +38,7 @@
 .header__list__about {
   font-family: "Archivo", sans-serif;
   list-style: none;
-  line-height: 2rem;
+  line-height: 2.5rem;
   font-weight: 600;
 }
 .header__hamburguer.ocult {
@@ -59,6 +59,68 @@
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
   z-index: 1;
   padding: 1rem;
+}
+
+.ultimate {
+  background-color: #333333;
+  padding-bottom: 3rem;
+}
+.ultimate__luxury {
+  padding-top: 4rem;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+.ultimate__luxury__content {
+  color: white;
+  font-weight: 700;
+  line-height: 1.125rem;
+  font-size: 0.8125rem;
+  letter-spacing: 0.175rem;
+  font-family: "Archivo", sans-serif;
+}
+.ultimate__base {
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+.ultimate__base__content {
+  color: white;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+}
+.ultimate__take {
+  margin-left: 1.5rem;
+  width: 55%;
+  background-color: #BEAD8E;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+.ultimate__take__tour {
+  color: white;
+  font-weight: 700;
+  line-height: 1.125rem;
+  font-size: 0.8125rem;
+  letter-spacing: 0.175rem;
+  font-family: "Archivo", sans-serif;
+  text-align: center;
+}
+.ultimate__learn {
+  margin-left: 1.5rem;
+  width: 55%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid rgba(255, 255, 255, 0.3294117647);
+}
+.ultimate__learn__more {
+  color: white;
+  font-weight: 700;
+  line-height: 1.125rem;
+  font-size: 0.8125rem;
+  letter-spacing: 0.175rem;
+  font-family: "Archivo", sans-serif;
+  text-align: center;
 }
 
 html, * {

@@ -1,0 +1,64 @@
+.ultimate{
+    background-color: #333333;
+    padding-bottom: 3rem;
+    &__luxury{
+        padding-top: 4rem;
+        padding-left: 1.5rem;
+        padding-bottom: 2rem;
+        &__content{
+            color: white;
+            font-weight: 700;
+            line-height: 1.125rem;
+            font-size: .8125rem;
+            letter-spacing: .175rem;
+            font-family: "Archivo", sans-serif;
+        }
+    }
+
+    &__base{
+        padding-left: 1.5rem;
+        padding-bottom: 2rem;
+        &__content{
+            color: white;
+            font-family: "Old Standard TT", serif;
+            font-weight: 400;
+            font-size: 52px;
+            line-height: 60px;
+            letter-spacing: -1.2px;
+        }
+    }
+
+    &__take{
+        margin-left: 1.5rem;
+        width: 55%;
+        background-color:#BEAD8E ;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        &__tour{
+            color: white;
+            font-weight: 700;
+            line-height: 1.125rem;
+            font-size: .8125rem;
+            letter-spacing: .175rem;
+            font-family: "Archivo", sans-serif;
+            text-align: center;
+        }
+    }
+
+    &__learn{
+        margin-left: 1.5rem;
+        width: 55%;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        border: 2px solid #FFFFFF54;
+        &__more{
+            color: white;
+            font-weight: 700;
+            line-height: 1.125rem;
+            font-size: .8125rem;
+            letter-spacing: .175rem;
+            font-family: "Archivo", sans-serif;
+            text-align: center;
+        }
+    }
+}
