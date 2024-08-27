@@ -1,0 +1,53 @@
+.intro{
+    padding-left: 1.5rem;
+    background-color: #222222;
+    padding-bottom: 2rem;
+    &__subtittle{
+        @extend .letter--archivo;
+        font-weight: 700;
+        font-size: .875rem;
+        line-height: .9519rem;
+        letter-spacing: .175rem;
+        color: #BDAC8D;
+        padding-bottom: 1.5rem;
+        padding-top: 3.5rem;
+    }
+    &__tittle{
+        @extend .letter--old;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 3.75rem;
+        letter-spacing: -0.075rem;
+        max-width: 20rem;
+        color: white;
+        padding-bottom: 1rem;
+    }
+    &__description{
+        @extend .letter--archivo;
+        font-weight: 400;
+        font-size: .875rem;
+        line-height: 1.5rem;
+        color: #C2C2C2;
+        max-width: 21rem;
+    }
+    &__video{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        width: 20.9375rem;
+        height: 16.875rem;
+    }
+    &__button{
+        background-color: transparent;
+        color: white;
+        @extend .letter--archivo;
+        font-weight: 700;
+        font-size: .875rem;
+        line-height: .9375rem;
+        letter-spacing: 2.8px;
+        border:0 solid;
+        width: 65%;
+        background-color:#BDAC8D ;
+        padding: 1.5rem;
+        text-align: center;
+    }
+}
