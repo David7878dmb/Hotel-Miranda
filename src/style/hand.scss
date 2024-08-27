@@ -1,0 +1,12 @@
+.hand{
+    background-color: #777777;
+    &__rooms{
+        @extend .letter--archivo;
+        font-weight: 700;
+        font-size: .875rem;
+        line-height: .9519rem;
+        letter-spacing: .175rem;
+        color: #777777;
+        text-align: center;
+    }
+}

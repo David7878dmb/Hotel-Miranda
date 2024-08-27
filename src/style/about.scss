@@ -2,7 +2,7 @@
     background-color: #F9F9F9;
     padding-top: 1rem;
     padding-left: 1.5rem;
-
+    padding-bottom: 10rem;
     &__us{
         padding-bottom: 1rem;
         @extend .letter--roboto;
@@ -33,7 +33,6 @@
         width: 55%;
         background-color:#BDAC8D ;
         padding: 1rem;
-        margin-bottom: 1.5rem;
         text-align: center;
         &__button{
             background-color: transparent;
