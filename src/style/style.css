@@ -403,7 +403,7 @@
 .intro {
   padding-left: 1.5rem;
   background-color: #222222;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
 }
 .intro__subtittle {
   font-weight: 700;
@@ -450,6 +450,91 @@
   text-align: center;
 }
 
+.facilities {
+  padding-top: 3rem;
+}
+.facilities__subtittle {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.955rem;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.facilities__tittle {
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  color: #222222;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.facilities__features {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/01.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.facilities__features__rating {
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.0563rem;
+  color: #222222;
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+.facilities__features__description {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #777777;
+  max-width: 16rem;
+}
+.facilities__features2 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/02.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.facilities__features3 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/03.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.facilities__features4 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/04.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.facilities__features5 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/05.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+.facilities__features6 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/06.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+
+.swiper__core {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
@@ -465,10 +550,10 @@ body {
   padding: 2rem;
 }
 
-.letter--archivo, .header__list__about, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button {
+.letter--archivo, .header__list__about, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description {
   font-family: "Archivo", sans-serif;
 }
-.letter--old, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle {
+.letter--old, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating {
   font-family: "Old Standard TT", serif;
 }
 .letter--roboto, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .footer--letter, .footer__copyright, .footer__terms, .card1__strong__description, .card2__luxury__description, .hand__minimal__description {

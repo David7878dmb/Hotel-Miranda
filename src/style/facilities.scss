@@ -1,0 +1,93 @@
+.facilities{
+    padding-top: 3rem;
+    &__subtittle{
+        @extend .letter--archivo;
+        font-weight: 700;
+        font-size: .875rem;
+        line-height: .955rem;
+        letter-spacing: .175rem;
+        color: #777777;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    &__tittle{
+        @extend .letter--old;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 3.75rem;
+        letter-spacing: -0.075rem;
+        color: #222222;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    &__features{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        background-image: url(../assets/01.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+        &__rating{
+            @extend .letter--old;
+            font-weight: 400;
+            font-size: 1.875rem;
+            line-height: 1.875rem;
+            letter-spacing: .0563rem;
+            color: #222222;
+            padding-top: 2.5rem;
+            padding-bottom: 1.5rem;
+        }
+        &__description{
+            @extend .letter--archivo;
+            font-weight: 400;
+            font-size: .875rem;
+            line-height: 1.5rem;
+            color: #777777;
+            max-width: 16rem;
+        }
+    }
+
+    &__features2{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        background-image: url(../assets/02.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    &__features3{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        background-image: url(../assets/03.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    &__features4{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        background-image: url(../assets/04.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    &__features5{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        background-image: url(../assets/05.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+    &__features6{
+        padding-left: 2rem;
+        padding-top: 2rem;
+        background-image: url(../assets/06.png);
+        background-repeat: no-repeat;
+        background-position: right top;
+    }
+
+}
+.swiper__core{
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
