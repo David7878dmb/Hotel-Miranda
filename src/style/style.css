@@ -273,7 +273,7 @@
   padding-bottom: 2rem;
 }
 .card1__strong__team {
-  padding-bottom: 1.5rem;
+  padding-bottom: 2rem;
 }
 .card1__strong__strong {
   font-weight: 400;
@@ -332,6 +332,74 @@
   color: white;
 }
 
+.hand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.hand__rooms {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9519rem;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.hand__picked {
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  text-align: center;
+}
+.hand__properties {
+  z-index: 2;
+}
+.hand__swiper {
+  background-color: #E4E4E4;
+  width: 23.4375rem;
+  height: 15.25rem;
+  margin-top: -2.5rem;
+}
+.hand__minimal {
+  margin-top: -1rem;
+  width: 90%;
+  z-index: 2;
+  background-color: white;
+}
+.hand__minimal__duplex {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  letter-spacing: -0.075rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.hand__minimal__description {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.hand__minimal__price {
+  padding-top: 1rem;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.6875rem;
+  text-align: center;
+  color: #BEAD8E;
+}
+.hand__minimal__price__span {
+  font-weight: 700;
+  font-size: 0.8125rem;
+  line-height: 2.6875rem;
+  text-align: center;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
@@ -347,13 +415,13 @@ body {
   padding: 2rem;
 }
 
-.letter--archivo, .header__list__about, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button {
+.letter--archivo, .header__list__about, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span {
   font-family: "Archivo", sans-serif;
 }
-.letter--old, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room {
+.letter--old, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex {
   font-family: "Old Standard TT", serif;
 }
-.letter--roboto, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .footer--letter, .footer__copyright, .footer__terms, .card1__strong__description, .card2__luxury__description {
+.letter--roboto, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .footer--letter, .footer__copyright, .footer__terms, .card1__strong__description, .card2__luxury__description, .hand__minimal__description {
   font-family: "Roboto", sans-serif;
 }
 

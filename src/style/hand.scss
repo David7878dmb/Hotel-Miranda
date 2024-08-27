@@ -1,5 +1,9 @@
 .hand{
-    background-color: #777777;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     &__rooms{
         @extend .letter--archivo;
         font-weight: 700;
@@ -8,5 +12,63 @@
         letter-spacing: .175rem;
         color: #777777;
         text-align: center;
+        padding-bottom: 2rem;
+    }
+    &__picked{
+        @extend .letter--old;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 3.75rem;
+        letter-spacing: -0.075rem;
+        text-align: center;
+    }
+    &__properties{
+        z-index: 2;
+    }
+    &__swiper{
+        background-color: #E4E4E4;
+        width: 23.4375rem;
+        height: 15.25rem;
+        margin-top: -2.5rem;
+    }
+
+    &__minimal{
+        margin-top: -1rem;
+        width: 90%;
+        z-index: 2;
+        background-color: white;
+        &__duplex{
+            @extend .letter--old;
+            font-weight: 400;
+            font-size: 1.75rem;
+            line-height: 2.25rem;
+            letter-spacing: -0.075rem;
+            text-align: center;
+            padding-bottom: 1rem;
+            padding-top: 1rem
+        }
+        &__description{
+            @extend .letter--roboto;
+            font-weight: 400;
+            font-size: .875rem;
+            line-height: 1.5rem;
+            text-align: center;
+        }
+        &__price{
+            padding-top: 1rem;
+            @extend .letter--archivo;
+            font-weight: 700;
+            font-size: 2rem;
+            line-height: 2.6875rem;
+            text-align: center;
+            color: #BEAD8E;
+            &__span{
+                @extend .letter--archivo;
+                font-weight: 700;
+                font-size: .8125rem;
+                line-height: 2.6875rem;
+                text-align: center;
+            }
+        }
     }
 }
