@@ -30,7 +30,6 @@
   padding-right: 7rem;
 }
 .header__container__hotel__h {
-  background-color: white;
   margin-right: 1rem;
   padding: 0.5rem;
   box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.2509803922);
@@ -496,11 +495,21 @@
 .swiper__core {
   margin-top: 4rem;
   margin-bottom: 5rem;
+  position: absolute;
+}
+.swiper__core__pagination {
+  margin-top: 2rem;
+  position: relative;
+  transform: translate(0%, 100%);
+}
+.swiper__core__pagination > span {
+  background-color: #BEAD8E;
 }
 
 .swiper-slide {
   display: flex;
   justify-content: center;
+  margin-bottom: 2rem;
 }
 
 #facilities__features {
@@ -557,6 +566,74 @@
   transform: translate(-5%, 0%);
 }
 
+.swiperfoods {
+  height: auto;
+  margin-top: -2rem;
+  display: flex;
+  background-image: url(../assets/donut.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+}
+.swiperfoods__subtittle {
+  padding-top: 8rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9519rem;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  padding-left: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.swiperfoods__tittle {
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  color: #222222;
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+.swiperfoods__content {
+  display: flex;
+  flex-direction: row;
+}
+.swiperfoods__content > .swiperfoods__content__foods {
+  display: flex;
+  flex-direction: column;
+}
+.swiperfoods__content__foods__img {
+  width: 7.5rem;
+  height: 7.5rem;
+  padding-left: 1.5rem;
+  background-color: gray;
+}
+.swiperfoods__content__foods__description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.swiperfoods__content__foods__description__tittle {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: -0.045rem;
+  color: #222222;
+  padding-bottom: 1rem;
+}
+.swiperfoods__content__foods__description__subtittle {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #222222;
+  max-width: 12rem;
+  padding-bottom: 2rem;
+}
+
+#content__div {
+  display: flex;
+  flex-direction: row;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
@@ -572,13 +649,13 @@ body {
   padding: 2rem;
 }
 
-.letter--archivo, .header__list__container__about, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description {
+.letter--archivo, .header__list__container__about, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description, .swiperfoods__subtittle {
   font-family: "Archivo", sans-serif;
 }
-.letter--old, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating {
+.letter--old, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle {
   font-family: "Old Standard TT", serif;
 }
-.letter--roboto, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .footer--letter, .footer__copyright, .footer__terms, .card1__strong__description, .card2__luxury__description, .hand__minimal__description {
+.letter--roboto, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .footer--letter, .footer__copyright, .footer__terms, .card1__strong__description, .card2__luxury__description, .hand__minimal__description, .swiperfoods__content__foods__description__subtittle {
   font-family: "Roboto", sans-serif;
 }
 

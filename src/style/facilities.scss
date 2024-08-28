@@ -46,11 +46,22 @@
 .swiper__core{
     margin-top: 4rem;
     margin-bottom: 5rem;
+    position: absolute;
+    &__pagination{
+        margin-top: 2rem;
+        position: relative;
+        transform: translate(0%,100%);
+        &>span{
+            background-color: #BEAD8E;
+        }
+    }
 }
+
 
 .swiper-slide{
     display: flex;
     justify-content: center;
+    margin-bottom: 2rem;
 }
 
 

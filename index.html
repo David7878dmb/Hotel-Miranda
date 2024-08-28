@@ -131,8 +131,21 @@
         <h4 class="hand__rooms">ROOMS</h4>
         <h2 class="hand__picked">Hand Picked Rooms</h2>
         <img class="hand__properties" src="./src/assets/properties.png"/>
-        <div class="hand__swiper">
-        </div>
+
+        <div class="hand__swiper swiper">
+
+            <div class="swiper-wrapper">
+
+              <div class="swiper-slide">Slide 1</div>
+              <div class="swiper-slide">Slide 2</div>
+              <div class="swiper-slide">Slide 3</div>
+              ...
+            </div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+          </div>
 
         <div class="hand__minimal">
             <h3 class="hand__minimal__duplex">Minimal Duplex Room</h3>
@@ -158,71 +171,121 @@
     </section>
 
 
-    <section class="swiper__core swiper" style=" height: 23.125rem;">
+    <section class="swiper__core swiper" style=" height:420px;">
         <h4 class="facilities__subtittle">FACILITIES</h4>
         <h2 class="facilities__tittle">Core Features</h2>
+
         <div class="swiper-wrapper">
  
             <div class="swiper-slide" id="facilities__features">
-
                         <img class="facilities__features__touch" src="./src/assets/touch.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-
             </div>
 
             <div class="swiper-slide" id="facilities__features2"> 
-
                         <img class="facilities__features__touch" src="./src/assets/hour.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-
-
             </div>
 
             <div class="swiper-slide" id="facilities__features3">
-
-
                         <img class="facilities__features__touch" src="./src/assets/ubi.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-
-
             </div>
 
             <div class="swiper-slide" id="facilities__features4">
-
-
                         <img class="facilities__features__touch" src="./src/assets/crash_hour.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-
-
             </div>
 
             <div class="swiper-slide" id="facilities__features5">
-
-
                         <img class="facilities__features__touch" src="./src/assets/wallet.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-
-
             </div>
 
             <div class="swiper-slide" id="facilities__features6">
-
-
                         <img class="facilities__features__touch" src="./src/assets/medal.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-
-
             </div>
+            
         </div>  
 
-  
+        <div class="swiper-pagination swiper__core__pagination"></div>
     </section>
+
+    <div class="swiperfoods swiper">
+        <h4 class="swiperfoods__subtittle">Menu</h4>
+        <h2 class="swiperfoods__tittle">Our Foods Menu</h2>
+
+        <div class="swiper-wrapper swiperfoods__content">
+      
+          <section class="swiperfoods__content__foods swiper-slide">
+            <div id="content__div">                
+                <img class="swiperfoods__content__foods__img" src="" alt="imagen"/>
+                <div class="swiperfoods__content__foods__description">
+                    <h3 class="swiperfoods__content__foods__description__tittle">Eggs & Bacon</h3>
+                    <p class="swiperfoods__content__foods__description__subtittle">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            
+            <div id="content__div">                
+                <img class="swiperfoods__content__foods__img" src="" alt="imagen"/>
+                <div class="swiperfoods__content__foods__description">
+                    <h3 class="swiperfoods__content__foods__description__tittle">Tea or Coffe</h3>
+                    <p class="swiperfoods__content__foods__description__subtittle">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            
+            
+            <div id="content__div">                
+                <img class="swiperfoods__content__foods__img" src="" alt="imagen"/>
+                <div class="swiperfoods__content__foods__description">
+                    <h3 class="swiperfoods__content__foods__description__tittle">Chia Oatmeal</h3>
+                    <p class="swiperfoods__content__foods__description__subtittle">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+          </section>
+
+          <section class="swiperfoods__content__foods swiper-slide">
+            <div id="content__div">                
+                <img class="swiperfoods__content__foods__img" src="" alt="imagen"/>
+                <div class="swiperfoods__content__foods__description">
+                    <h3 class="swiperfoods__content__foods__description__tittle">Fruit Parfait</h3>
+                    <p class="swiperfoods__content__foods__description__subtittle">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            
+            <div id="content__div">                
+                <img class="swiperfoods__content__foods__img" src="" alt="imagen"/>
+                <div class="swiperfoods__content__foods__description">
+                    <h3 class="swiperfoods__content__foods__description__tittle">Marmalade Selection</h3>
+                    <p class="swiperfoods__content__foods__description__subtittle">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+            
+            
+            <div id="content__div">                
+                <img class="swiperfoods__content__foods__img" src="" alt="imagen"/>
+                <div class="swiperfoods__content__foods__description">
+                    <h3 class="swiperfoods__content__foods__description__tittle">Cheese Plate</h3>
+                    <p class="swiperfoods__content__foods__description__subtittle">Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor.</p>
+                </div>
+            </div>
+          </section>
+
+
+        </div>     
+      
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+
+      </div>
 
     <footer class="footer">
         <h4 class="footer__copyright">Copyright By@Example - 2020</h4>
@@ -233,5 +296,7 @@
 <script src="src/js/header.js"></script>    
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="src/js/corefeatures_swiper.js"></script>
+<script src="src/js/hand_swiper.js"></script>
+<script src="src/js/swiperfoods.js"></script>
 </body>
 </html>

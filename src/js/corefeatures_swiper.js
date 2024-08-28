@@ -4,6 +4,9 @@ const swiper = new Swiper('.swiper__core', {
   direction: 'horizontal',
   loop: true,
 
+  pagination: {
+    el: '.swiper-pagination',
+  },
   // Navigation arrows
 
 });
