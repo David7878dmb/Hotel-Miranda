@@ -1,4 +1,10 @@
 .header {
+  display: grid;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
+}
+.header__container {
   display: flex;
   flex-direction: row;
   background-color: white;
@@ -7,48 +13,47 @@
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
   z-index: 2;
 }
-.header__hamburguer {
+.header__container__hamburguer {
   padding-left: 1rem;
 }
-.header__close {
+.header__container__close {
   display: none;
 }
-.header__person {
+.header__container__person {
   padding-right: 1.5rem;
 }
-.header__hotel {
+.header__container__hotel {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding-left: 1.5rem;
   padding-right: 7rem;
 }
-.header__hotel__h {
+.header__container__hotel__h {
   background-color: white;
   margin-right: 1rem;
   padding: 0.5rem;
   box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.2509803922);
 }
-.header__hotel__miranda {
+.header__container__hotel__miranda {
   height: 1.5rem;
 }
-.header__list {
+.header__list__container {
   display: none;
 }
-.header__list__about {
+.header__list__container__about {
   list-style: none;
   line-height: 2.5rem;
   font-weight: 600;
 }
-.header__hamburguer.ocult {
+.header__container__hamburguer.ocult {
   display: none;
 }
-.header__close.visible {
+.header__container__close.visible {
   padding-left: 1rem;
   display: block;
 }
-.header__list.visible {
-  z-index: 5;
+.header__list__container.visible {
   display: block;
   position: absolute;
   top: 4rem;
@@ -56,7 +61,6 @@
   right: 0;
   background-color: white;
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.2901960784);
-  z-index: 1;
   padding: 1rem;
 }
 
@@ -435,6 +439,7 @@
   margin-bottom: 2rem;
   width: 20.9375rem;
   height: 16.875rem;
+  border: 0 solid;
 }
 .intro__button {
   background-color: transparent;
@@ -471,13 +476,6 @@
   text-align: center;
   padding-bottom: 1rem;
 }
-.facilities__features {
-  padding-left: 2rem;
-  padding-top: 2rem;
-  background-image: url(../assets/01.png);
-  background-repeat: no-repeat;
-  background-position: right top;
-}
 .facilities__features__rating {
   font-weight: 400;
   font-size: 1.875rem;
@@ -494,45 +492,69 @@
   color: #777777;
   max-width: 16rem;
 }
-.facilities__features2 {
+
+.swiper__core {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+#facilities__features {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/01.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  transform: translate(-5%, 0%);
+}
+
+#facilities__features2 {
   padding-left: 2rem;
   padding-top: 2rem;
   background-image: url(../assets/02.png);
   background-repeat: no-repeat;
   background-position: right top;
+  transform: translate(-5%, 0%);
 }
-.facilities__features3 {
+
+#facilities__features3 {
   padding-left: 2rem;
   padding-top: 2rem;
   background-image: url(../assets/03.png);
   background-repeat: no-repeat;
   background-position: right top;
+  transform: translate(-5%, 0%);
 }
-.facilities__features4 {
+
+#facilities__features4 {
   padding-left: 2rem;
   padding-top: 2rem;
   background-image: url(../assets/04.png);
   background-repeat: no-repeat;
   background-position: right top;
+  transform: translate(-5%, 0%);
 }
-.facilities__features5 {
+
+#facilities__features5 {
   padding-left: 2rem;
   padding-top: 2rem;
   background-image: url(../assets/05.png);
   background-repeat: no-repeat;
   background-position: right top;
+  transform: translate(-5%, 0%);
 }
-.facilities__features6 {
+
+#facilities__features6 {
   padding-left: 2rem;
   padding-top: 2rem;
   background-image: url(../assets/06.png);
   background-repeat: no-repeat;
   background-position: right top;
-}
-
-.swiper__core {
-  margin-top: 4rem;
-  margin-bottom: 5rem;
+  transform: translate(-5%, 0%);
 }
 
 html, * {
@@ -550,7 +572,7 @@ body {
   padding: 2rem;
 }
 
-.letter--archivo, .header__list__about, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description {
+.letter--archivo, .header__list__container__about, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description {
   font-family: "Archivo", sans-serif;
 }
 .letter--old, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating {

@@ -23,22 +23,25 @@
 
 <body>
     <section class="header">
-        <img class="header__hamburguer" id="open" src="./src/assets/hamburguer.png">
-        <img class="header__close" id="close" src="./src/assets/close.png">
-        <div class="header__hotel">
-         <div class="header__hotel__h">   
-            <img src="./src/assets/H.png">
-         </div>
-         <img class="header__hotel__miranda" src="./src/assets/Hotel Miranda.png">
+        <div class="header__container">
+            <img class="header__container__hamburguer" id="open" src="./src/assets/hamburguer.png">
+            <img class="header__container__close" id="close" src="./src/assets/close.png">
+            <div class="header__container__hotel">
+                    <img  class="header__container__hotel__h" src="./src/assets/H.png">
+                    <img class="header__container__hotel__miranda" src="./src/assets/Hotel Miranda.png">
+            </div>
+            <img class="header__container__person" src="./src/assets/person.png">
+            <img class="header__container__search" src="./src/assets/search.png">
         </div>
-        <img class="header__person" src="./src/assets/person.png">
-        <img class="header__search" src="./src/assets/search.png">
-        <ul class="header__list" id="nav">
-            <li class="header__list__about"> About Us </li>
-            <li class="header__list__about"> Rooms </li>
-            <li class="header__list__about"> Offers </li>
-            <li class="header__list__about"> Contact </li>
-        </ul>
+
+        <div class="header__list">
+            <ul class="header__list__container" id="nav">
+                <li class="header__list__container__about"> About Us </li>
+                <li class="header__list__container__about"> Rooms </li>
+                <li class="header__list__container__about"> Offers </li>
+                <li class="header__list__container__about"> Contact </li>
+            </ul>
+        </div>
     </section>
 
     <section class="ultimate">
@@ -145,78 +148,76 @@
         <h4 class="intro__subtittle">INTRO VIDEO</h4>
         <h2 class="intro__tittle">Meet With Our Luxury Place.</h2>
         <p class="intro__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.</p>
-        <video class="intro__video" controls>
-            <source type="video/mp4"/>
-        </video>
+        <iframe class="intro__video" src="https://www.youtube.com/embed/Bu3Doe45lcU?si=FD2yeuAqCw1jCeoc&amp;start=25" 
+            title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
         <button class="intro__button">
             Book Now
         </button>
     </section>
 
 
-    <section class="swiper__core" style=" height: 23.125rem;">
+    <section class="swiper__core swiper" style=" height: 23.125rem;">
         <h4 class="facilities__subtittle">FACILITIES</h4>
         <h2 class="facilities__tittle">Core Features</h2>
         <div class="swiper-wrapper">
+ 
+            <div class="swiper-slide" id="facilities__features">
 
-            <div class="swiper-slide">
-                <section class="facilities">
-                    <div class="facilities__features">
                         <img class="facilities__features__touch" src="./src/assets/touch.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </section>
+
             </div>
 
-            <div class="swiper-slide"> 
-                <section class="facilities">
-                    <div class="facilities__features2">
+            <div class="swiper-slide" id="facilities__features2"> 
+
                         <img class="facilities__features__touch" src="./src/assets/hour.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </section>
+
+
             </div>
 
-            <div class="swiper-slide">
-                <section class="facilities">
-                    <div class="facilities__features3">
+            <div class="swiper-slide" id="facilities__features3">
+
+
                         <img class="facilities__features__touch" src="./src/assets/ubi.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </section>
+
+
             </div>
 
-            <div class="swiper-slide">
-                <section class="facilities">
-                    <div class="facilities__features4">
+            <div class="swiper-slide" id="facilities__features4">
+
+
                         <img class="facilities__features__touch" src="./src/assets/crash_hour.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </section>
+
+
             </div>
 
-            <div class="swiper-slide">
-                <section class="facilities">
-                    <div class="facilities__features5">
+            <div class="swiper-slide" id="facilities__features5">
+
+
                         <img class="facilities__features__touch" src="./src/assets/wallet.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </section>
+
+
             </div>
 
-            <div class="swiper-slide">
-                <section class="facilities">
-                    <div class="facilities__features6">
+            <div class="swiper-slide" id="facilities__features6">
+
+
                         <img class="facilities__features__touch" src="./src/assets/medal.png"/>
                         <h3 class="facilities__features__rating">Have High Rating</h3>
                         <p class="facilities__features__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna..</p>
-                    </div>
-                </section>
+
+
             </div>
         </div>  
 

@@ -1,61 +1,71 @@
 .header{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    width: 100%;
     background-color: white;
-    height: 4rem;
-    align-items: center;
     box-shadow: 0px 3px 6px 0px #0000004A;
-    z-index: 2; 
-
-    &__hamburguer{
-        padding-left: 1rem;
-    }
-    &__close{
-        display: none;
-    }
-
-    &__person{
-        padding-right: 1.5rem;
-    }
-
-    &__hotel{
+    &__container{
         display: flex;
         flex-direction: row;
+        background-color: white;
+        height: 4rem;
         align-items: center;
-        padding-left: 1.5rem;
-        padding-right: 7rem;
-        &__h{
-            background-color: white;
-            margin-right: 1rem;
-            padding: .5rem;
-            box-shadow: 0px 14px 24px 0px #8B8B8B40;
+        box-shadow: 0px 3px 6px 0px #0000004A;
+        z-index: 2; 
 
+        &__hamburguer{
+            padding-left: 1rem;
         }
-        &__miranda{
-            height: 1.5rem;
+        &__close{
+            display: none;
         }
-    }
-    &__list{
-        display: none;
-        &__about{
-            @extend .letter--archivo;
-            list-style: none;
-            line-height: 2.5rem;
-            font-weight: 600;
+
+        &__person{
+            padding-right: 1.5rem;
         }
-    }
-    //Burguer Menu
-    &__hamburguer.ocult{
+
+        &__hotel{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-left: 1.5rem;
+            padding-right: 7rem;
+            &__h{
+                background-color: white;
+                margin-right: 1rem;
+                padding: .5rem;
+                box-shadow: 0px 14px 24px 0px #8B8B8B40;
+
+            }
+            &__miranda{
+                height: 1.5rem;
+            }
+        }
+        }
+
+        &__list{
+
+            &__container{
+            display: none;
+            &__about{
+                @extend .letter--archivo;
+                list-style: none;
+                line-height: 2.5rem;
+                font-weight: 600;
+            }
+        }}
+
+
+    
+    &__container__hamburguer.ocult{
         display: none;
     }
 
-    &__close.visible{
+    &__container__close.visible{
         padding-left: 1rem;
         display: block;
     }
     
-    &__list.visible{
-        z-index: 5;
+    &__list__container.visible{
         display: block;
         position: absolute;
         top: 4rem;
@@ -63,7 +73,7 @@
         right: 0;
         background-color: white;
         box-shadow: 0px 3px 6px 0px #0000004A; 
-        z-index: 1; 
         padding: 1rem; 
     }
+
 }
