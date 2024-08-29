@@ -1,11 +1,48 @@
-.swiperfoods{
+.swiperfoods {
+
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        width: 2.25rem;
+        height: 2.25rem;
+    }
+
+    &__buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        position: relative;
+        margin-top: -1rem;
+        padding-bottom: 2rem;
+
+        &__prev {
+            background-color: #F8F8F8;
+            color: black;
+            &::after {
+                content: '<';
+                color: black;
+            }
+        }
+
+        &__next {
+            background-color: #BEAD8E;
+            color: white;
+            &::after {
+                content: '>';
+                font-size: 2px;
+                color: white;
+            }
+        }
+    }
+
     height: auto;
     margin-top: -2rem;
     display: flex;
     background-image: url(../assets/donut.png);
     background-position: top right;
     background-repeat: no-repeat;
-    &__subtittle{
+
+    &__subtittle {
         padding-top: 8rem;
         @extend .letter--archivo;
         font-weight: 700;
@@ -16,7 +53,8 @@
         padding-left: 1.5rem;
         padding-bottom: 1.5rem;
     }
-    &__tittle{
+
+    &__tittle {
         @extend .letter--old;
         font-weight: 400;
         font-size: 3.5rem;
@@ -27,25 +65,29 @@
         padding-bottom: 2rem;
     }
 
-    &__content{
+    &__content {
         display: flex;
         flex-direction: row;
-        &>.swiperfoods__content__foods{
+
+        &>.swiperfoods__content__foods {
             display: flex;
             flex-direction: column;
         }
-        &__foods{
-            &__img{
+
+        &__foods {
+            &__img {
                 width: 7.5rem;
                 height: 7.5rem;
                 padding-left: 1.5rem;
                 background-color: gray;
             }
-            &__description{
+
+            &__description {
                 display: flex;
                 flex-direction: column;
-                padding-left:2rem;
-                &__tittle{
+                padding-left: 2rem;
+
+                &__tittle {
                     @extend .letter--old;
                     font-weight: 400;
                     font-size: 1.5rem;
@@ -54,7 +96,8 @@
                     color: #222222;
                     padding-bottom: 1rem;
                 }
-                &__subtittle{
+
+                &__subtittle {
                     @extend .letter--roboto;
                     font-weight: 400;
                     font-size: .875rem;
@@ -65,10 +108,41 @@
                 }
             }
         }
+
+
     }
 }
 
-#content__div{
+
+
+#content__div {
     display: flex;
     flex-direction: row;
 }
+/*
+@mixin swiperArrows($bgColor, $color, $content) {
+    background-color: $bgColor;
+    color: $color;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: translate(0, -5rem);
+
+    &::after {
+        content: $content;
+        font-size: 9px;
+    }
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-button-next.--custom {
+    $bgColor: map-get($map: $theme-colors, $key: senary);
+    @include swiperArrows($bgColor: $bgColor, $color: white, $content: '>');
+}
+
+.swiper-button-prev.--custom {
+    $bgColor: map-get($map: $theme-colors, $key: main);
+    @include swiperArrows($bgColor: $bgColor, $color: black, $content: '<');
+}*/

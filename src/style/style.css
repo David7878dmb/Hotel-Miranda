@@ -238,6 +238,7 @@
   background-color: #F8F8F8;
   padding: 1rem;
   padding-left: 1.5rem;
+  margin-top: 2rem;
 }
 .footer--letter, .footer__terms, .footer__copyright {
   color: black;
@@ -574,6 +575,36 @@
   background-position: top right;
   background-repeat: no-repeat;
 }
+.swiperfoods .swiper-button-prev,
+.swiperfoods .swiper-button-next {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+.swiperfoods__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  position: relative;
+  margin-top: -1rem;
+  padding-bottom: 2rem;
+}
+.swiperfoods__buttons__prev {
+  background-color: #F8F8F8;
+  color: black;
+}
+.swiperfoods__buttons__prev::after {
+  content: "<";
+  color: black;
+}
+.swiperfoods__buttons__next {
+  background-color: #BEAD8E;
+  color: white;
+}
+.swiperfoods__buttons__next::after {
+  content: ">";
+  font-size: 2px;
+  color: white;
+}
 .swiperfoods__subtittle {
   padding-top: 8rem;
   font-weight: 700;
@@ -632,6 +663,51 @@
 #content__div {
   display: flex;
   flex-direction: row;
+}
+
+/*
+@mixin swiperArrows($bgColor, $color, $content) {
+    background-color: $bgColor;
+    color: $color;
+    width: 1.5rem;
+    height: 1.5rem;
+    transform: translate(0, -5rem);
+
+    &::after {
+        content: $content;
+        font-size: 9px;
+    }
+}
+
+.swiper {
+    width: 100%;
+}
+
+.swiper-button-next.--custom {
+    $bgColor: map-get($map: $theme-colors, $key: senary);
+    @include swiperArrows($bgColor: $bgColor, $color: white, $content: '>');
+}
+
+.swiper-button-prev.--custom {
+    $bgColor: map-get($map: $theme-colors, $key: main);
+    @include swiperArrows($bgColor: $bgColor, $color: black, $content: '<');
+}*/
+.slider {
+  width: 90%;
+  margin-top: 2rem;
+}
+.slider__content {
+  width: 20.9375rem;
+  height: 20.9375rem;
+}
+.slider__content__img {
+  width: 20.9375rem;
+  height: 20.9375rem;
+  background-color: lightblue;
+}
+
+.swiper-pagination > span {
+  background-color: #BEAD8E;
 }
 
 html, * {
