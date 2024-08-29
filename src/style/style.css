@@ -705,9 +705,49 @@
   height: 20.9375rem;
   background-color: lightblue;
 }
+.slider__content__img img {
+  width: 20.9375rem;
+  height: 20.9375rem;
+}
 
 .swiper-pagination > span {
   background-color: #BEAD8E;
+}
+
+.statistics {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #222222;
+}
+.statistics__content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.statistics__content__img {
+  width: 5rem;
+  height: 5rem;
+  padding-bottom: 1rem;
+}
+.statistics__content__tittle {
+  font-weight: 700;
+  font-size: 3.75rem;
+  line-height: 5.115rem;
+  color: white;
+}
+.statistics__content__tittle__more {
+  font-size: 1rem;
+  line-height: 1.3638rem;
+}
+.statistics__content__subtittle {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.3638rem;
+  color: #999999;
+  padding-bottom: 3rem;
 }
 
 html, * {
@@ -731,7 +771,7 @@ body {
 .letter--old, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle {
   font-family: "Old Standard TT", serif;
 }
-.letter--roboto, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .footer--letter, .footer__copyright, .footer__terms, .card1__strong__description, .card2__luxury__description, .hand__minimal__description, .swiperfoods__content__foods__description__subtittle {
+.letter--roboto, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .footer--letter, .footer__copyright, .footer__terms, .card1__strong__description, .card2__luxury__description, .hand__minimal__description, .swiperfoods__content__foods__description__subtittle, .statistics__content__tittle, .statistics__content__subtittle {
   font-family: "Roboto", sans-serif;
 }
 
