@@ -1,0 +1,37 @@
+.pictures{
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    &__content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        &__div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            img{
+                width: 3.625rem;
+                height: 3.25rem;
+                margin-bottom:1rem;
+                margin-top: 2rem;
+            }
+            p{
+                @extend .letter--archivo;
+                font-weight: 700;
+                font-size: .75rem;
+                line-height: .875rem;
+                letter-spacing: .15rem;
+                text-align: center;
+                padding-bottom: 1rem;
+                margin-bottom: 1.5rem;
+                margin:1rem;
+                margin-top: 0;
+            }
+            &__airport{
+                color: white;
+            }
+        }
+    }
+}

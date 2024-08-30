@@ -944,6 +944,44 @@
   line-height: 2.4719rem;
   letter-spacing: 0.0725rem;
   text-align: center;
+  padding-bottom: 3rem;
+}
+
+.pictures {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.pictures__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.pictures__content__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pictures__content__div img {
+  width: 3.625rem;
+  height: 3.25rem;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.pictures__content__div p {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  margin: 1rem;
+  margin-top: 0;
+}
+.pictures__content__div__airport {
+  color: white;
 }
 
 html, * {
@@ -961,7 +999,7 @@ body {
   padding: 2rem;
 }
 
-.letter--archivo, .header__list__container__about, .hotel__head__content__h, .hotel__head__hotel, .hotel__head__hotel__span, .hotel__description, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description, .swiperfoods__subtittle, .luxury__subtittle, .luxury__content__home {
+.letter--archivo, .header__list__container__about, .hotel__head__content__h, .hotel__head__hotel, .hotel__head__hotel__span, .hotel__description, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description, .swiperfoods__subtittle, .luxury__subtittle, .luxury__content__home, .pictures__content__div p {
   font-family: "Archivo", sans-serif;
 }
 .letter--old, .hotel__services__tittle, .hotel__contact__us, .hotel__contact__content__text, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle, .luxury__tittle, .years__tittle {
