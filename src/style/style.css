@@ -984,6 +984,178 @@
   color: white;
 }
 
+.restaurant {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+.restaurant__img {
+  width: 18.4375rem;
+  height: 14.5rem;
+  background-color: #E5E5E5;
+}
+.restaurant__subtittle {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9519rem;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  padding-top: 1.5rem;
+}
+.restaurant__tittle {
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3.09rem;
+  letter-spacing: -0.0656rem;
+  color: #222222;
+  padding-top: 1.5rem;
+}
+.restaurant__description {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #777777;
+  padding-top: 1.5rem;
+  max-width: 18rem;
+  padding-bottom: 1rem;
+}
+.restaurant__button {
+  background-color: #BEAD8E;
+  box-shadow: 0px 14px 24px 0px rgba(190, 173, 142, 0.3607843137);
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9519rem;
+  letter-spacing: 0.175rem;
+  color: white;
+  text-align: center;
+  width: 60%;
+  border: 0;
+  padding: 1.2rem;
+}
+
+.facilitiesdark {
+  padding-top: 3rem;
+}
+.facilitiesdark__subtittle {
+  padding-top: 3rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.955rem;
+  letter-spacing: 0.175rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.facilitiesdark__tittle {
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  color: white;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.facilitiesdark__features__rating {
+  font-weight: 400;
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  letter-spacing: 0.0563rem;
+  color: white;
+  padding-top: 2.5rem;
+  padding-bottom: 1.5rem;
+}
+.facilitiesdark__features__description {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: white;
+  max-width: 16rem;
+}
+
+.swiper__core {
+  background-color: #222222;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+.swiper__core__pagination {
+  margin-top: 2rem;
+  position: relative;
+  transform: translate(0%, 100%);
+}
+.swiper__core__pagination > span {
+  background-color: #BEAD8E;
+}
+
+.swiper-wrapper {
+  background-color: #292929;
+  margin-bottom: 4rem;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.facilitiesdark__features__touch {
+  padding-top: 2rem;
+}
+
+#facilitiesdark__features {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/01.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  transform: translate(-5%, 0%);
+}
+
+#facilitiesdark__features2 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/02.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  transform: translate(-5%, 0%);
+}
+
+#facilitiesdark__features3 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/03.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  transform: translate(-5%, 0%);
+}
+
+#facilitiesdark__features4 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/04.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  transform: translate(-5%, 0%);
+}
+
+#facilitiesdark__features5 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/05.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  transform: translate(-5%, 0%);
+}
+
+#facilitiesdark__features6 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  background-image: url(../assets/06.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  transform: translate(-5%, 0%);
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
@@ -999,10 +1171,10 @@ body {
   padding: 2rem;
 }
 
-.letter--archivo, .header__list__container__about, .hotel__head__content__h, .hotel__head__hotel, .hotel__head__hotel__span, .hotel__description, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description, .swiperfoods__subtittle, .luxury__subtittle, .luxury__content__home, .pictures__content__div p {
+.letter--archivo, .header__list__container__about, .hotel__head__content__h, .hotel__head__hotel, .hotel__head__hotel__span, .hotel__description, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description, .swiperfoods__subtittle, .luxury__subtittle, .luxury__content__home, .pictures__content__div p, .restaurant__subtittle, .restaurant__description, .restaurant__button, .facilitiesdark__subtittle, .facilitiesdark__features__description {
   font-family: "Archivo", sans-serif;
 }
-.letter--old, .hotel__services__tittle, .hotel__contact__us, .hotel__contact__content__text, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle, .luxury__tittle, .years__tittle {
+.letter--old, .hotel__services__tittle, .hotel__contact__us, .hotel__contact__content__text, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle, .luxury__tittle, .years__tittle, .restaurant__tittle, .facilitiesdark__tittle, .facilitiesdark__features__rating {
   font-family: "Old Standard TT", serif;
 }
 .letter--roboto, .hotel__services__options__left p, .hotel__services__options__right p, .hotel__contact__content__text__span, .footer--letter, .footer__copyright, .footer__terms, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .card1__strong__description, .card2__luxury__description, .hand__minimal__description, .swiperfoods__content__foods__description__subtittle, .statistics__content__tittle, .statistics__content__subtittle {
