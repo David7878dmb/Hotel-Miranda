@@ -63,6 +63,159 @@
   padding: 1rem;
 }
 
+.hotel {
+  background-image: url(../assets/background__rectangle.png);
+  display: flex;
+  flex-direction: column;
+}
+.hotel__head {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 1.5rem;
+}
+.hotel__head__content {
+  width: 5rem;
+  height: 5rem;
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.1490196078);
+  background-color: #BEAD8E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hotel__head__content__h {
+  width: 1.9375rem;
+  height: 2.6875rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 2.6875rem;
+  color: white;
+}
+.hotel__head__hotel {
+  padding-left: 1.5rem;
+  font-weight: 700;
+  font-size: 1.625rem;
+  line-height: 1.7681rem;
+  letter-spacing: 2.6px;
+  max-width: 20px;
+}
+.hotel__head__hotel__span {
+  font-weight: 400;
+  font-size: 1.625rem;
+  line-height: 1.7681rem;
+  letter-spacing: 2.6px;
+}
+.hotel__description {
+  padding-left: 1.5rem;
+  padding-top: 3rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  color: #777777;
+}
+.hotel__icons {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+.hotel__icons__content {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F8F8F8;
+  margin-left: 0.5rem;
+}
+.hotel__services {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-left: 1.5rem;
+}
+.hotel__services__tittle {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+}
+.hotel__services__options {
+  display: flex;
+  flex-direction: row;
+}
+.hotel__services__options__left {
+  display: flex;
+  flex-direction: column;
+}
+.hotel__services__options__left p {
+  color: #777777;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 3rem;
+}
+.hotel__services__options__right {
+  display: flex;
+  flex-direction: column;
+}
+.hotel__services__options__right p {
+  color: #777777;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 3rem;
+  padding-left: 2rem;
+}
+.hotel__contact {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.hotel__contact__us {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.hotel__contact__content {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.hotel__contact__content__img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.hotel__contact__content__text {
+  padding-left: 1.5rem;
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  max-width: 180px;
+}
+.hotel__contact__content__text__span {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.0088rem;
+  color: gray;
+}
+
+.footer {
+  background-color: #F8F8F8;
+  padding: 1rem;
+  padding-left: 1.5rem;
+}
+.footer--letter, .footer__terms, .footer__copyright {
+  color: black;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.1719rem;
+  letter-spacing: -0.48px;
+}
+.footer__copyright {
+  padding-bottom: 1rem;
+}
 .ultimate {
   background-color: #333333;
   padding-bottom: 3rem;
@@ -234,21 +387,6 @@
   border: 0 solid;
 }
 
-.footer {
-  background-color: #F8F8F8;
-  padding: 1rem;
-  padding-left: 1.5rem;
-}
-.footer--letter, .footer__terms, .footer__copyright {
-  color: black;
-  font-weight: 700;
-  font-size: 1rem;
-  line-height: 1.1719rem;
-  letter-spacing: -0.48px;
-}
-.footer__copyright {
-  padding-bottom: 1rem;
-}
 .card1 {
   display: flex;
   flex-direction: column;
@@ -749,142 +887,43 @@
   padding-bottom: 3rem;
 }
 
-.hotel {
-  background-image: url(../assets/background__rectangle.png);
-  display: flex;
-  flex-direction: column;
-}
-.hotel__head {
-  padding-top: 2rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+.luxury {
+  background-color: #333333;
   padding-left: 1.5rem;
 }
-.hotel__head__content {
-  width: 5rem;
-  height: 5rem;
-  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.1490196078);
-  background-color: #BEAD8E;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.hotel__head__content__h {
-  width: 1.9375rem;
-  height: 2.6875rem;
-  font-size: 2.5rem;
+.luxury__subtittle {
   font-weight: 700;
-  line-height: 2.6875rem;
+  font-size: 0.8125rem;
+  line-height: 1.125rem;
+  letter-spacing: 0.175rem;
   color: white;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
 }
-.hotel__head__hotel {
-  padding-left: 1.5rem;
-  font-weight: 700;
-  font-size: 1.625rem;
-  line-height: 1.7681rem;
-  letter-spacing: 2.6px;
-  max-width: 20px;
-}
-.hotel__head__hotel__span {
+.luxury__tittle {
   font-weight: 400;
-  font-size: 1.625rem;
-  line-height: 1.7681rem;
-  letter-spacing: 2.6px;
-}
-.hotel__description {
-  padding-left: 1.5rem;
-  padding-top: 3rem;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.625rem;
-  color: #777777;
-}
-.hotel__icons {
-  display: flex;
-  flex-direction: row;
-  padding-left: 1.5rem;
-  padding-top: 1.5rem;
-}
-.hotel__icons__content {
-  width: 2.5rem;
-  height: 2.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #F8F8F8;
-  margin-left: 0.5rem;
-}
-.hotel__services {
-  display: flex;
-  flex-direction: column;
-  padding-top: 2rem;
-  padding-left: 1.5rem;
-}
-.hotel__services__tittle {
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  letter-spacing: -0.075rem;
+  color: white;
   padding-bottom: 2rem;
 }
-.hotel__services__options {
-  display: flex;
-  flex-direction: row;
+.luxury__content {
+  margin-left: 54%;
+  align-self: flex-end;
+  background-color: white;
+  padding: 1rem;
+  width: 42%;
+  text-align: center;
 }
-.hotel__services__options__left {
-  display: flex;
-  flex-direction: column;
-}
-.hotel__services__options__left p {
-  color: #777777;
-  font-weight: 400;
+.luxury__content__home {
+  font-weight: 700;
   font-size: 1rem;
-  line-height: 3rem;
+  line-height: 1.0713rem;
+  letter-spacing: -0.03rem;
 }
-.hotel__services__options__right {
-  display: flex;
-  flex-direction: column;
-}
-.hotel__services__options__right p {
-  color: #777777;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 3rem;
-  padding-left: 2rem;
-}
-.hotel__contact {
-  display: flex;
-  flex-direction: column;
-  padding-left: 1.5rem;
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
-}
-.hotel__contact__us {
-  font-weight: 400;
-  font-size: 1.5rem;
-  line-height: 1.5rem;
-}
-.hotel__contact__content {
-  padding-top: 2rem;
-  display: flex;
-  flex-direction: row;
-}
-.hotel__contact__content__img {
-  width: 2.5rem;
-  height: 2.5rem;
-}
-.hotel__contact__content__text {
-  padding-left: 1.5rem;
-  font-weight: 400;
-  font-size: 1.25rem;
-  line-height: 1.5rem;
-  max-width: 180px;
-}
-.hotel__contact__content__text__span {
-  font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 1.0088rem;
-  color: gray;
+.luxury__content__home__about {
+  color: #BEAD8E;
 }
 
 html, * {
@@ -902,13 +941,13 @@ body {
   padding: 2rem;
 }
 
-.letter--archivo, .header__list__container__about, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description, .swiperfoods__subtittle, .hotel__head__content__h, .hotel__head__hotel, .hotel__head__hotel__span, .hotel__description {
+.letter--archivo, .header__list__container__about, .hotel__head__content__h, .hotel__head__hotel, .hotel__head__hotel__span, .hotel__description, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description, .swiperfoods__subtittle, .luxury__subtittle, .luxury__content__home {
   font-family: "Archivo", sans-serif;
 }
-.letter--old, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle, .hotel__services__tittle, .hotel__contact__us, .hotel__contact__content__text {
+.letter--old, .hotel__services__tittle, .hotel__contact__us, .hotel__contact__content__text, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle, .luxury__tittle {
   font-family: "Old Standard TT", serif;
 }
-.letter--roboto, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .footer--letter, .footer__copyright, .footer__terms, .card1__strong__description, .card2__luxury__description, .hand__minimal__description, .swiperfoods__content__foods__description__subtittle, .statistics__content__tittle, .statistics__content__subtittle, .hotel__services__options__left p, .hotel__services__options__right p, .hotel__contact__content__text__span {
+.letter--roboto, .hotel__services__options__left p, .hotel__services__options__right p, .hotel__contact__content__text__span, .footer--letter, .footer__copyright, .footer__terms, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .card1__strong__description, .card2__luxury__description, .hand__minimal__description, .swiperfoods__content__foods__description__subtittle, .statistics__content__tittle, .statistics__content__subtittle {
   font-family: "Roboto", sans-serif;
 }
 

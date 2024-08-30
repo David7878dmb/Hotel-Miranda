@@ -1,8 +1,11 @@
+//global
 @import './header.scss';
+@import './hotel.scss';
+@import './footer.scss';
+//Home
 @import './home/ultimate.scss';
 @import './home/date.scss';
 @import './home/about.scss';
-@import './footer.scss';
 @import './home/card.scss';
 @import './home/hand.scss';
 @import './home/intro.scss';
@@ -10,7 +13,8 @@
 @import './home/foods.scss';
 @import './home/slider.scss';
 @import './home/statistics.scss';
-@import './hotel.scss';
+//About
+@import './about/ultimate.scss';
 
 html, * { 
     box-sizing: border-box; 

@@ -1,0 +1,41 @@
+.luxury{
+    background-color: #333333;
+    padding-left: 1.5rem;
+    &__subtittle{
+        @extend .letter--archivo;
+        font-weight: 700;
+        font-size: .8125rem;
+        line-height: 1.125rem;
+        letter-spacing: .175rem;
+        color: white;
+        padding-top: 4rem;
+        padding-bottom: 1rem
+    }
+    &__tittle{
+        @extend .letter--old;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 3.75rem;
+        letter-spacing: -0.075rem;
+        color: white;
+        padding-bottom: 2rem;
+    }
+    &__content{
+        margin-left: 54%;
+        align-self:flex-end;
+        background-color: white;
+        padding: 1rem;
+        width: 42%;
+        text-align: center;
+        &__home{
+            @extend .letter--archivo;
+            font-weight: 700;
+            font-size: 1rem;
+            line-height: 1.0713rem;
+            letter-spacing: -0.03rem;
+            &__about{
+                color: #BEAD8E;
+            }
+        }
+    }
+}
