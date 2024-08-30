@@ -1,0 +1,20 @@
+.years{
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    &__video{
+        height: 186px;
+        width: 335px;
+        margin-left: 5%;
+    }
+    &__tittle{
+        padding-top: 2rem;
+        color: #222222;
+        @extend .letter--old;
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.4719rem;
+        letter-spacing: .0725rem;
+        text-align: center;
+    }
+}

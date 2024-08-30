@@ -926,6 +926,26 @@
   color: #BEAD8E;
 }
 
+.years {
+  padding-top: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.years__video {
+  height: 186px;
+  width: 335px;
+  margin-left: 5%;
+}
+.years__tittle {
+  padding-top: 2rem;
+  color: #222222;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.4719rem;
+  letter-spacing: 0.0725rem;
+  text-align: center;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
@@ -944,7 +964,7 @@ body {
 .letter--archivo, .header__list__container__about, .hotel__head__content__h, .hotel__head__hotel, .hotel__head__hotel__span, .hotel__description, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description, .swiperfoods__subtittle, .luxury__subtittle, .luxury__content__home {
   font-family: "Archivo", sans-serif;
 }
-.letter--old, .hotel__services__tittle, .hotel__contact__us, .hotel__contact__content__text, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle, .luxury__tittle {
+.letter--old, .hotel__services__tittle, .hotel__contact__us, .hotel__contact__content__text, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle, .luxury__tittle, .years__tittle {
   font-family: "Old Standard TT", serif;
 }
 .letter--roboto, .hotel__services__options__left p, .hotel__services__options__right p, .hotel__contact__content__text__span, .footer--letter, .footer__copyright, .footer__terms, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .card1__strong__description, .card2__luxury__description, .hand__minimal__description, .swiperfoods__content__foods__description__subtittle, .statistics__content__tittle, .statistics__content__subtittle {
