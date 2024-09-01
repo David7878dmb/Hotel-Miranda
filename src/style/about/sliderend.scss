@@ -1,0 +1,25 @@
+.sliderend{
+    width: 90%;
+    margin-top: 3rem;
+    &__content{
+        width: 20.9375rem;
+        height: 20.9375rem;
+        &__img{
+            width: 20.9375rem;
+            height: 20.9375rem;
+            background-color: lightblue;
+            img{
+                width: 20.9375rem;
+            height: 20.9375rem;
+            }
+        }
+    }
+}
+
+.swiper{
+    &-pagination{
+        &>span{
+            background-color: #BEAD8E;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.counter{
+    padding-left: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    &__subtittle{
+        @extend .letter--archivo;
+        font-weight: 700;
+        font-size: .875rem;
+        line-height: .9519rem;
+        letter-spacing: .175rem;
+        color: #777777;
+        padding-bottom: 2rem
+    }
+    &__tittle{
+        @extend .letter--old;
+        font-weight: 400;
+        font-size: 3.5rem;
+        line-height: 3.75rem;
+        letter-spacing: -0.075rem;
+        color: #222222;
+        padding-bottom: 3rem;
+    }
+    &__content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 2rem;
+        &__img{
+            width: 4.0625rem;
+            height: 4.0625rem;
+            margin-right: 1rem;
+        }
+        &__description{
+            display: flex;
+            flex-direction: column;
+            &__number{
+                @extend .letter--old;
+                font-weight: 400;
+                font-size: 3.75rem;
+                line-height: 3.75rem;
+                letter-spacing: -0.1125rem;
+                color: #222222;
+
+           }
+            &__span{
+                @extend .letter--roboto;
+                font-weight: 400;
+                font-size: 1rem;
+                line-height: 1rem;
+                color: #777777;
+               }
+            }
+            &__arrow{
+                width: 2rem;
+                height: 2rem;
+                margin-left: auto; 
+                margin-right: 1rem;
+            }
+} }
