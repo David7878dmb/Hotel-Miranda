@@ -1234,6 +1234,145 @@
   background-color: #BEAD8E;
 }
 
+.information {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.5rem;
+  background-repeat: no-repeat;
+  background-position: right;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+.information__img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.information__content {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+}
+.information__content__tittle {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  padding-bottom: 2rem;
+}
+.information__content__description {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.0256rem;
+  color: gray;
+  max-width: 190px;
+}
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 1.5rem;
+}
+.offers__content {
+  background-image: url("../../src/assets/offers/doublebed.jpg");
+  background-position: center;
+  width: 20.9375rem;
+  height: 10.125rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.offers__content__last {
+  color: #BEAD8E;
+  font-weight: 700;
+  font-size: 1.4375rem;
+  line-height: 1.5625rem;
+  text-align: left;
+}
+.offers__content__last span {
+  color: #BEAD8E;
+  font-weight: 700;
+  font-size: 0.6875rem;
+  line-height: 0.75rem;
+  text-align: left;
+}
+.offers__content__new {
+  font-weight: 700;
+  text-align: left;
+  color: #DE5777;
+  font-size: 1.875rem;
+  line-height: 2rem;
+}
+.offers__content__new span {
+  font-size: 0.75rem;
+  line-height: 0.8125rem;
+}
+.offers__subtittle {
+  padding-left: 1rem;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9375rem;
+  letter-spacing: 0.175rem;
+  color: #777777;
+  padding-top: 1rem;
+}
+.offers__tittle {
+  padding-left: 1rem;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  letter-spacing: -0.09rem;
+  color: #222222;
+  padding-top: 1rem;
+}
+.offers__description {
+  padding-left: 1rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #777777;
+  padding-top: 1.5rem;
+  max-width: 18.4375rem;
+}
+.offers__details {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.offers__details__box {
+  display: flex;
+  flex-direction: column;
+}
+.offers__details__box__img {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: row;
+}
+.offers__details__box__img p {
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.0938rem;
+  color: #777777;
+  padding-left: 0.5rem;
+}
+.offers__button {
+  background-color: #BDAC8D;
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 0.9519rem;
+  letter-spacing: 0.175rem;
+  color: white;
+  border: 0;
+  margin-left: 1rem;
+  width: 60%;
+  padding: 1.5rem;
+}
+
 html, * {
   box-sizing: border-box;
   margin: 0;
@@ -1249,13 +1388,13 @@ body {
   padding: 2rem;
 }
 
-.letter--archivo, .header__list__container__about, .hotel__head__content__h, .hotel__head__hotel, .hotel__head__hotel__span, .hotel__description, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description, .swiperfoods__subtittle, .luxury__subtittle, .luxury__content__home, .pictures__content__div p, .restaurant__subtittle, .restaurant__description, .restaurant__button, .facilitiesdark__subtittle, .facilitiesdark__features__description, .counter__subtittle {
+.letter--archivo, .header__list__container__about, .hotel__head__content__h, .hotel__head__hotel, .hotel__head__hotel__span, .hotel__description, .ultimate__luxury__content, .ultimate__take__tour, .ultimate__learn__more, .about__description, .about__book__button, .hand__rooms, .hand__minimal__price, .hand__minimal__price__span, .intro__subtittle, .intro__description, .intro__button, .facilities__subtittle, .facilities__features__description, .swiperfoods__subtittle, .luxury__subtittle, .luxury__content__home, .pictures__content__div p, .restaurant__subtittle, .restaurant__description, .restaurant__button, .facilitiesdark__subtittle, .facilitiesdark__features__description, .counter__subtittle, .offers__content__last, .offers__content__last span, .offers__content__new, .offers__subtittle {
   font-family: "Archivo", sans-serif;
 }
-.letter--old, .hotel__services__tittle, .hotel__contact__us, .hotel__contact__content__text, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle, .luxury__tittle, .years__tittle, .restaurant__tittle, .facilitiesdark__tittle, .facilitiesdark__features__rating, .counter__tittle, .counter__content__description__number {
+.letter--old, .hotel__services__tittle, .hotel__contact__us, .hotel__contact__content__text, .ultimate__base__content, .about__discover, .card1__strong__strong, .card2__luxury__room, .hand__picked, .hand__minimal__duplex, .intro__tittle, .facilities__tittle, .facilities__features__rating, .swiperfoods__tittle, .swiperfoods__content__foods__description__tittle, .luxury__tittle, .years__tittle, .restaurant__tittle, .facilitiesdark__tittle, .facilitiesdark__features__rating, .counter__tittle, .counter__content__description__number, .information__content__tittle, .offers__tittle {
   font-family: "Old Standard TT", serif;
 }
-.letter--roboto, .hotel__services__options__left p, .hotel__services__options__right p, .hotel__contact__content__text__span, .footer--letter, .footer__copyright, .footer__terms, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .card1__strong__description, .card2__luxury__description, .hand__minimal__description, .swiperfoods__content__foods__description__subtittle, .statistics__content__tittle, .statistics__content__subtittle, .counter__content__description__span {
+.letter--roboto, .hotel__services__options__left p, .hotel__services__options__right p, .hotel__contact__content__text__span, .footer--letter, .footer__copyright, .footer__terms, .date--h4decoration, .date--calendar, .date__arrival h4, .date__arrival__date__calendar, .date__ledeparture h4, .date__ledeparture__date__calendar, .date__availability__button, .about__us, .card1__strong__description, .card2__luxury__description, .hand__minimal__description, .swiperfoods__content__foods__description__subtittle, .statistics__content__tittle, .statistics__content__subtittle, .counter__content__description__span, .information__content__description, .offers__description, .offers__details__box__img p {
   font-family: "Roboto", sans-serif;
 }
 

@@ -1,0 +1,35 @@
+.information{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1.5rem;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 2rem;
+    //background-size: 14rem 14.625rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    &__img{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    &__content{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+        &__tittle{
+            @extend .letter--old;
+            font-weight: 400;
+            font-size: 1.25rem;
+            line-height: 1.5rem;
+            padding-bottom: 2rem
+        }
+        &__description{
+            @extend .letter--roboto;
+            font-weight: 400;
+            font-size: .875rem;
+            line-height: 1.0256rem;
+            color: gray;
+            max-width: 190px;
+        }
+    }
+}
