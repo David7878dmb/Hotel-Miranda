@@ -85,34 +85,36 @@
         <img class="contactimg__img" style="background-color: gray;">
     </section>
 
-    <section>
+    <section class="form">
         <form action="#" method="POST">
-            <div class="form-group">
-              <img src="./src/assets/contact/personform.png"/>
-              <input type="text" id="name" name="name" value="Your Full Name" required>
+            <div class="form__div">
+              <img src="./src/assets/contact/personform.png" class="form__div__img"/>
+              <input type="text" id="name" name="name" placeholder="Your Full Name" class="form__div__input" required>
             </div>
 
-            <div class="form-group">
-              <img src="./src/assets/contact/phoneform.png" />
-              <input type="tel" id="number" name="number" value="Add phone number" required>
+            <div class="form__div">
+              <img src="./src/assets/contact/phoneform.png" class="form__div__img"/>
+              <input type="tel" id="number" name="number" placeholder="Add phone number" class="form__div__input" required>
             </div>
 
-            <div class="form-group">
-              <img src="./src/assets/contact/emailform.png"/>
-              <input type="email" id="email" name="email" value="Enter email address" required>
+            <div class="form__div">
+              <img src="./src/assets/contact/emailform.png" class="form__div__img"/>
+              <input type="email" id="email" name="email" placeholder="Enter email address" class="form__div__input" required>
             </div>
             
-            <div class="form-group">
-                <img src="./src/assets/contact/bookform.png"/>
-                <input type="text" id="subject" name="subject" value="Enter subject" required>
+            <div class="form__div">
+                <img src="./src/assets/contact/bookform.png" class="form__div__img"/>
+                <input type="text" id="subject" name="subject" placeholder="Enter subject" class="form__div__input" required>
             </div>
             
-            <div class="form-group">
-                <img src="./src/assets/contact/penform.png"/>
-                <textarea id="message" name="message" value="Enter message" required></textarea>
+            <div class="form__div">
+                <img src="./src/assets/contact/penform.png" class="form__div__img"/>
+                <textarea id="message" name="message" placeholder="Enter message" required class="form__div__input form__div__"></textarea>
+            </div>
+            <div class="form__box">
+                <button  type="submit" class="form__box__button">Send</button>
             </div>
 
-            <button type="submit" class="submit-btn">Send</button>
 
           </form>
     </section>
